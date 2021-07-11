@@ -36,6 +36,7 @@ pipeline {
                 // failed, record the test results and archive the jar file.
                 success {
                     archiveArtifacts 'target/*.jar'
+                    copyArtifacts fingerprintArtifacts: true, projectName: 'ide', target: '/opt/bitnami/jenkins/jenkins_home/workspace/ide'
                 }
             }
         }

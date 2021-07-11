@@ -8,8 +8,8 @@
     },
     "jenkins-runner.hostConfigs": {
       "pipelines-7080": {
-        "url": "https://ec2-18-206-208-236.compute-1.amazonaws.com",
-        "user": "kiran",
+        "url": "http://ec2-54-173-100-40.compute-1.amazonaws.com/",
+        "user": "kaaditya",
         "password": "Kiran@2020",
         "useCrumbIssuer": true
       }
